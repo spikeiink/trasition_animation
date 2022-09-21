@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.box_side{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.box_side{
+    background-color: red;
+    transition-property: all;
+    transition-duration: 4s;
+
+}
+
+.box_side:hover{
+    background-color: aqua;
+    transition-property: all;
+    transition-duration: 2s;
+    width: 20%;
+    height: 20%;
+}
